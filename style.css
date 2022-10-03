@@ -6,61 +6,6 @@
   margin: 0;
   padding: 0;
 }
-.right-image {
-  position: relative;
-  margin-top: 163px;
-  margin-left: 150px;
-}
-
-.right-image img {
-  width: 304px;
-  height: 356px;
-  z-index: 1;
-}
-
-.right-image .ellipse {
-  background-color: #EFEFEF;
-  width: 274px;
-  height: 41px;
-  position: absolute;
-  bottom: -20px;
-  left: 35px;
-  z-index: -1;
-  border-radius: 100%;
-}
-
-.center-block {
-  position: relative;
-  margin-top: 87px;
-  width: 483.63px;
-  height: 200.02px;
-  margin-left: 409.39px;
-  background-color: #1E4681;
-  border-radius: 5px;
-}
-
-.center-block p {
-  line-height: 32.5px;
-  color: #fff;
-  font-size: 25px;
-  font-family: 'Roboto Slab', serif;
-  padding: 19.26px 27.02px 67.74px 26.03px;
-  font-weight: 400;
-}
-
-.center-block span {
-  position: absolute;
-  right: 18.72px;
-  bottom: 0px;
-  height: 45.64px;
-  color: #fff;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  line-height: 26px;
-  font-weight: 400;
-  line-height: 130%;
-}
-
 .course {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -103,16 +48,7 @@
     z-index: 5;
   }
   
-  .course .right .image .ellipse {
-    position: absolute;
-    background-color: #EFEFEF;
-    width: 366px;
-    height: 59px;
-    z-index: -5;
-    bottom: -30px;
-    left: -24px;
-    border-radius: 50%;
-  }
+
   .infos {
     margin-top: 100px;
     margin-left: 122px;
@@ -131,18 +67,10 @@
   
   .infos .left .photo img {
     z-index: 3;
+    /* width:fit-content; */
   }
   
-  .infos .left .photo .ellipse {
-    position: absolute;
-    bottom: -10px;
-    width: 189px;
-    height: 32px;
-    background-color: #EFEFEF;
-    z-index: -3;
-    left: 30px;
-    border-radius: 50%;
-  }
+
   
   .infos .info-text {
     margin-top: 50px;
@@ -181,6 +109,10 @@
   }
   @media (min-width: 991px) {
     /* TOP */
+    .photo img{
+      width: 500px;
+
+    }
     .course {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -217,16 +149,6 @@
       height: 21.87vw;
       z-index: 5;
     }
-    .course .right .image .ellipse {
-      position: absolute;
-      background-color: #EFEFEF;
-      width: 25.4vw;
-      height: 4vw;
-      z-index: -5;
-      top: 20vw;
-      left: -2vw;
-      border-radius: 50%;
-    }
     .infos {
       margin-top: 7vw;
       margin-left: 8.4vw;
@@ -244,16 +166,7 @@
     .infos .left .photo img {
       z-index: 3;
     }
-    .infos .left .photo .ellipse {
-      position: absolute;
-      width: 189px;
-      height: 32px;
-      background-color: #EFEFEF;
-      z-index: -3;
-      left: 30px;
-      border-radius: 50%;
-      top: 181px;
-    }
+  
     .infos .info-text {
       margin-top: 6.47vw;
       width: 10.4vw;
